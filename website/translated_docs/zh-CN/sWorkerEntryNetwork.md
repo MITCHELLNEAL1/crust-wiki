@@ -24,7 +24,7 @@ SGX技术是Intel六代及之后芯片所拥有的信息安全技术。通过这
 
 基于ECDSA的英特尔SGX DCAP认证允许提供商构建和交付自己的认证服务，而不是使用英特尔提供的远程认证服务。这是对IAS的替代方案。请参考[此处](https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/attestation-services.html)了解更多信息。
 
-Crust已经开发了基于ECDSA的英特尔SGX DCAP认证服务。GitHub存储库位于[crust-dcap](https://github.com/crustio/crust-dcap)。sWorker版本>= 2.0.0支持基于ECDSA的DCAP认证。有关更多信息，请参阅[此处](...)。
+Crust已经开发了基于ECDSA的英特尔SGX DCAP认证服务。GitHub存储库位于[crust-dcap](https://github.com/crustio/crust-dcap)。sWorker版本>= 2.0.0支持基于ECDSA的DCAP认证。有关更多信息，请参阅[此处](Q&AForEPID-ECDSA.md)。
 
 ### MREnclave
 另外一个重要的概念是MREnclave，它可以理解为运行时Enclave部分的代码和堆栈数据的哈希值。通过MREnclave可以确保Enclave中运行的是指定的程序代码，防止攻击者运行恶意的Enclave程序。Quote中包含了MREnclave值。

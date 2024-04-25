@@ -23,7 +23,7 @@ Intel plans to end of life (EOL) the Intel SGX Attestation Service Utilizing Int
 
 ECDSA-based attestation with Intel SGX DCAP allows providers to build and deliver their own attestation service instead of using the remote attestation service provided by Intel. This is a replacement for the IAS. Refer to [here](https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/attestation-services.html) for more information. 
 
-Crust has developed a ECDSA-based attestation service with Intel SGX DCAP. The github repo is [crust-dcap](https://github.com/crustio/crust-dcap). sWorker version >= 2.0.0 supports ECDSA-based DCAP attestation. For more information, please refer to [here](...).
+Crust has developed a ECDSA-based attestation service with Intel SGX DCAP. The github repo is [crust-dcap](https://github.com/crustio/crust-dcap). sWorker version >= 2.0.0 supports ECDSA-based DCAP attestation. For more information, please refer to [here](Q&AForEPID-ECDSA.md).
 
 ### MREnclave
 MREnclave is another important concept. It can be treated as the hash of enclave code and stack data at runtime. An application can be checked if running in the right way through comparing runtime MREnclave with the indicated one. In this way can application protect its data from malware. By the way MREnclave is contained in Quote.

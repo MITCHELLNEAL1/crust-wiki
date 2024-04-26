@@ -320,6 +320,10 @@
         "title": "Q&A",
         "sidebar_label": "For Node"
       },
+      "Q&AForEPID-ECDSA": {
+        "title": "EPID & ECDSA",
+        "sidebar_label": "EPID & ECDSA"
+      },
       "Q&AForOther": {
         "title": "Other",
         "sidebar_label": "Other"

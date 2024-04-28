@@ -100,7 +100,7 @@ sudo crust config set
 
 ![图片](assets/mining/member_password_config.png)
 
-### 3.5 Config sWorker Attestation Mode
+### 3.5 配置sWorker认证模式
 
 按照提示输入sworker认证模式，一般来说使用默认值即可（参考[EPID & ECDSA](Q&AForEPID-ECDSA.md)了解更多信息），直接按回车键结束：
 
@@ -128,7 +128,7 @@ Crust作为去中心话存储网络，硬盘的配置尤为重要。节点存储
 sudo crust tools space-info
 ```
 
-### 3.6 外源链设置（可选&推荐）
+### 3.7 外源链设置（可选&推荐）
 
 使得本地存储服务使用外部的链节点进行信息收集，工作量上报等工作
 

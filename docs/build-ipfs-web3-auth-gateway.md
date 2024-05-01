@@ -1,4 +1,4 @@
----
+mitchell neal---
 id: buildIPFSWeb3AuthGW
 title: IPFS W3Auth Gateway
 sidebar_label: IPFS W3Auth Gateway
